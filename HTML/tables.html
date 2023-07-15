@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables</title>
+    <style>
+        table{
+            width: 50%;
+            border-collapse: collapse ;
+            text-align: center;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        /* th{
+            background-color: #313131;
+        } */
+    </style>
+</head>
+<body>
+    <!-- <table>
+        <tr>
+            <th>Country</th>
+            <th>Country Code</th>
+            <th>Country Email</th>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td>01</td>
+            <td>india@gmail</td>
+        </tr>
+        <tr>
+            <td>USA</td>
+            <td>02</td>
+            <td>usa@gmail</td>
+        </tr>
+        <tr>
+            <td>China</td>
+            <td>03</td>
+            <td>china@gmail</td>
+        </tr>
+    </table> -->
+
+    <!-- Tfoot -->
+
+    <table>
+        <thead>
+            <th>Item</th>
+            <th scope="col">Expenditure</th>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="col">Donuts</th>
+                <td>5000</td>
+            </tr>
+            <tr>
+                <th scope="col">Stationary</th>
+                <td>1000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="col">Total</th>
+                <td>6000</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
+
